@@ -259,7 +259,7 @@ open class GTMultiImageView: UIView {
                     
                 ])
                 
-                v4.bringSubview(toFront: vb4)
+                v4.bringSubviewToFront(vb4)
                 
                 break
             default:
@@ -307,7 +307,7 @@ open class GTMultiImageView: UIView {
             b.leadingAnchor.constraint(equalTo: v.leadingAnchor),
             v.trailingAnchor.constraint(equalTo: b.trailingAnchor),
         ])
-        v.bringSubview(toFront: b)
+        v.bringSubviewToFront(b)
         v.clipsToBounds = true
         
         return v

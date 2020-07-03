@@ -1,42 +1,27 @@
-#
-# Be sure to run `pod lib lint GTMultiImageView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+Pod::Spec.new do |spec|
 
-Pod::Spec.new do |s|
-  s.name             = 'GTMultiImageView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GTMultiImageView.'
+  spec.name         = "GTMultiImageView"
+  spec.version      = "0.0.1"
+  spec.summary      = "A simple image views like Twittter"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  spec.description  = <<-DESC
+It provides a split ImageView like Twitter.
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+Easy to use.
+Step 1. Place the UIView in your UIViewController.
+Step 2. Change the UIView Class to GTMultiImageView.
+Step 3. Place the array of UIImage in GTMultiImageView's images property in the code.
+                   DESC
 
-  s.homepage         = 'https://github.com/sera4am/GTMultiImageView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sera4am' => 'takeo@kazama.biz' }
-  s.source           = { :git => 'https://github.com/sera4am/GTMultiImageView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.homepage     = "https://github.com/sera4am/GTMultiImageView"
+  spec.license      = { :type => "MIT", :file => "LISENCE" }
+  spec.author             = { "sera4am" => "sera@4am.jp" }
+  spec.platform     = :ios, "11.0"
 
-  s.ios.deployment_target = '8.0'
+  spec.source       = { :git => "https://github.com/sera4am/GTMultiImageView.git", :tag => "#{spec.version}" }
 
-  s.source_files = 'GTMultiImageView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GTMultiImageView' => ['GTMultiImageView/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  spec.source_files  = "GTCamera", "GTMultiImageView/Classes/*.{swift}"
+  spec.requires_arc = true
+  spec.swift_version = "5.0"
 end
