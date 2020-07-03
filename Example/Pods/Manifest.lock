@@ -1,0 +1,16 @@
+PODS:
+  - GTMultiImageView (0.1.0)
+
+DEPENDENCIES:
+  - GTMultiImageView (from `../`)
+
+EXTERNAL SOURCES:
+  GTMultiImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTMultiImageView: 4798cb1ccc2f53af2cb8e58af240603df672d5d5
+
+PODFILE CHECKSUM: 476acbf67af65e580fa62b52d73ad7f6509330a1
+
+COCOAPODS: 1.9.3

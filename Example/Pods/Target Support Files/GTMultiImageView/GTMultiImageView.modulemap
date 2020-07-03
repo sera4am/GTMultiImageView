@@ -1,0 +1,6 @@
+framework module GTMultiImageView {
+  umbrella header "GTMultiImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
