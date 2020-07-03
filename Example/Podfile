@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GTMultiImageView_Tests' do
+  pod 'GTMultiImageView', :path => '../'
+  
+  
+end
