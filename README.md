@@ -22,7 +22,7 @@ pod 'GTMultiImageView'
 
 ## Author
 
-sera4am, takeo@kazama.biz
+sera4am, sera@4am.jp
 
 ## License
 

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GTMultiImageView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A simple image views like Twittter"
 
   spec.description  = <<-DESC
